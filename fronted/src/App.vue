@@ -1,5 +1,8 @@
 <template>
   <body>
+    <div>
+        <p>{{ mensaje }}</p>
+    </div>
     <header class="header">
       <div class="container">
       <div class="btn-menu">
@@ -26,9 +29,7 @@
       <label for="btn-menu">✖️</label>
     </div>
   </div>
-  <div>
-        <p>{{ mensaje }}</p>
-    </div>
+
   </body>
   </template>
 <script>
